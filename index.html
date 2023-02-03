@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Time left in 2023</title>
+	<link rel="stylesheet" href="./common/css/reset.css">
+	<link rel="stylesheet" href="./common/css/common.css">
+	<link rel="stylesheet" href="./css/jquery.yycountdown.css">
+
+</head>
+
+<body>
+
+	<header>
+		<h1></h1>
+	</header><!-- header -->
+
+	<div id="contents">
+		<div class="inner">
+			<div id="olympic">
+				Time left<span> in </span>2023
+			</div>
+			<div id="olympicDate">
+				A year seems like a long time, but it goes by so quickly!<br>
+				1 second 1 second, savor the moment and enjoy it to the fullest!
+			</div>
+			<div id="timer"></div>
+
+		</div><!-- inner -->
+	</div><!-- contents -->
+
+	<footer>
+		<!-- footer -->
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.yycountdown.min.js"></script>
+	<script type="text/javascript">
+		$("#timer").yycountdown({
+			endDateTime: '2023/12/31 23:59:59'
+		});
+	</script>
+</body>
+
+</html>
